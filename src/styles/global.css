@@ -1,0 +1,48 @@
+.my-apps-content {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(170, 198, 212, 1);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(170, 198, 212, 1);
+  box-shadow: 0px 0px 7px 0px rgba(170, 198, 212, 1);
+}
+.contents {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: rgba(81, 99, 119, 1);
+}
+.content-details {
+  padding: 20px;
+  padding-bottom: 35px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(170, 198, 212, 1);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(170, 198, 212, 1);
+  box-shadow: 0px 0px 7px 0px rgba(170, 198, 212, 1);
+  background-color: #ffffff;
+}
+.details-title {
+  text-align: center;
+  padding-bottom: 30px;
+  color: rgba(81, 99, 119, 1);
+  font-weight: 500;
+  font-size: 22px;
+}
+.details-text {
+  display: flex;
+  font-size: 15px;
+}
+.modal-box-content {
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(170, 198, 212, 1);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(170, 198, 212, 1);
+  box-shadow: 0px 0px 7px 0px rgba(170, 198, 212, 1);
+}
+/* default box shadow  */
+
+/* -webkit-box-shadow: 0px 0px 7px 0px rgba(170, 198, 212, 1);
+-moz-box-shadow: 0px 0px 7px 0px rgba(170, 198, 212, 1);
+box-shadow: 0px 0px 7px 0px rgba(170, 198, 212, 1); */
