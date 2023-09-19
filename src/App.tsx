@@ -12,12 +12,10 @@ function App() {
   let token = localStorage.getItem("token");
 
   useEffect(() => {
-    if (location.pathname === "login") {
-      if (!token) {
-        navigate("/login");
-      }
+    if (token) {
+      navigate("/main");
     }
-  }, []);
+  }, [token]);
 
   return (
     <div className="app">
