@@ -27,7 +27,6 @@ const LoginForm = () => {
           </Grid>
           <Grid item sm={12}>
             <Box textAlign={"left"}>
-              {/* <TextField variant="outlined" placeholder="Name" /> */}
               <ControlledInput name="login" control={control} label={"Login"} />
             </Box>
           </Grid>

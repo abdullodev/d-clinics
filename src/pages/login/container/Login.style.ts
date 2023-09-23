@@ -2,7 +2,6 @@ import { Grid, Box } from "@mui/material";
 import { styled } from "styled-components";
 
 export const LoginStyled = styled(Grid)`
-  background-color: aqua;
   min-height: 100vh;
 `;
 export const LoginImgStyled = styled(Box)`

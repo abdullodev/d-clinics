@@ -12,7 +12,7 @@ function App() {
   let token = localStorage.getItem("token");
 
   useEffect(() => {
-    if (token) {
+    if (token || location.pathname === "/") {
       navigate("/main");
     }
   }, [token]);
